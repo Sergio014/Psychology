@@ -1,0 +1,31 @@
+{% load sass_tags %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Індивідуальні консультації</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="{% sass_src 'sass/index.scss' %}" type="text/css"/>
+  </head>
+  <body>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    {% include "partials/header.html" %}
+    {% include "partials/menu.html" %}
+
+    {% include "partials/individual/individuals.html" %}
+    {% include "partials/contact.html" %}
+    {% include "partials/footer.html" %}
+
+    <!-- Scripts -->
+    <script type="module" src="{% static 'index.js' %}"></script>
+    <script src="{% static 'scripts/modal.js' %}"></script>
+  </body>
+</html>

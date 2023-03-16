@@ -1,0 +1,26 @@
+@import './base/mixins';
+@import './base/variables';
+@import './base/common';
+@import './base/container';
+@import './base/base';
+@import './base/cursor';
+@import './base/visually-hidden';
+@import './base/buttons';
+
+@import './components/header';
+@import './components/menu';
+@import './components/hero';
+@import './components/description';
+@import './components/advantages';
+@import './components/sympomatics';
+@import './components/education';
+@import './components/contact';
+@import './components/footer';
+@import './components/slider';
+
+// separate pages
+@import './components/individual/individual';
+@import './components/how/how';
+@import './components/aboutme/aboutmeabout';
+@import './components/group/group';
+@import './components/aboutme/aboutmeliterature';

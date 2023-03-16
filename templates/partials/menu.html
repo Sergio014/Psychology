@@ -1,0 +1,66 @@
+{% load static %}
+<div class="backdrop is-hidden" data-modal>
+  <div class="data-modal">
+    <div class="close" data-modal-close>X</div>
+
+    <nav>
+      <ul class="menu-list">
+        <li class="menu-items">
+          <a href="{% url 'aboutme' %}"> про мене</a>
+        </li>
+        <li class="menu-items">
+          <a href="{% url 'group' %}"> групові сесії</a>
+        </li>
+        <li class="menu-items">
+          <a href="{% url 'individual' %}"> індивідуальні зустрічі</a>
+        </li>
+        <li class="menu-items">
+          <a href="{% url 'how' %}"> як проходять консультації</a>
+        </li>
+      </ul>
+      <ul class="contact__form-icons contact__form-icons--menu">
+        <li>
+          <a
+            href="https://www.instagram.com/lavanderbounty/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="icon-instagram">
+              <use href="{% static 'images/sprite.svg' %}#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://t.me/annnaaostapenko"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="icon-telegram">
+              <use href="{% static 'images/sprite.svg' %}#icon-telegram"></use></svg
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.tiktok.com/@lavanderbounty?is_from_webapp=1&sender_device=pc"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="icon-tiktok">
+              <use href="{% static 'images/sprite.svg' %}#icon-tiktok"></use></svg
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/@annaostapenko4976/featured"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="icon-youtube">
+              <use href="{% static 'images/sprite.svg' %}#icon-youtube" ></use></svg
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>

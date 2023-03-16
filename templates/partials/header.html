@@ -1,0 +1,22 @@
+{% load static %}
+<header class="header">
+  <div class="container">
+    <div class="header-wrapper">
+      <div class="header__line header__line--first"></div>
+      <a href="{% url 'index' %}"
+        ><svg class="logo">
+          <use href="{% static 'images/sprite.svg' %}#icon-logo"></use>
+        </svg>
+      </a>
+      <div class="header__line header__line--second"></div>
+
+      <svg class="burger" data-modal-open>
+        <use href="{% static 'images/sprite.svg' %}#icon-menu"></use>
+      </svg>
+      <div class="header__line header__line--third"></div>
+    </div>
+    <nav>
+      <!-- place for burger menu -->
+    </nav>
+  </div>
+</header>

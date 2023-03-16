@@ -1,0 +1,71 @@
+{% load static %}
+<section class="how">
+  <div class="aboutmeabout__thumb-eyes">
+    <img
+      src="{% static 'images/how1.jpg' %}"
+      alt="writting"
+      class="aboutmeabout__thumb-eyes--item"
+    />
+  </div>
+  <div class="container">
+    <div class="link-nav">
+      <a href="{% url 'index' %}">Головна /</a> Як проходять консультації
+    </div>
+    <h2 class="hero__name">як проходять консультації</h2>
+    <h3 class="titles--25">Як потрапити на консультацію?</h3>
+    <div class="aboutmeabout__wrapper space-btw">
+      <ul class="how__list">
+        <li class="how__list-item">
+          1. Зв'язуйтесь зручним для вас способом, вказаним у контактах.
+        </li>
+        <li class="how__list-item">Ми обираємо зручний для вас час.</li>
+        <li class="how__list-item">
+          2. Оплата першої консультації, призначення її дати та часу проведення.
+        </li>
+        <li class="how__list-item">
+          3. Ви переходите по відправленому посиланню.
+        </li>
+        <li class="how__list-item">4. Ми обираємо зручний для вас час.</li>
+        <li class="how__list-item">5. Вітаю, ви на консультації!</li>
+      </ul>
+      <div class="aboutmeabout__wrapper--inner remove-margin">
+        <div class="aboutmeabout__thumb_wrapper">
+          <div class="aboutmeabout__picture1">
+            <img
+              src="{% static 'images/how2.jpg' %}"
+              alt="Фото психолога"
+              class="aboutmeabout__picture1--item"
+            />
+          </div>
+          <div class="aboutmeabout__picture2">
+            <img
+              src="{% static 'images/how3.jpg' %}"
+              alt="Фото психолога"
+              class="aboutmeabout__picture1--item"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="titles--25">Що ще треба знати?</h3>
+    <ul class="how__list">
+      <li class="how__list-item">
+        1. Якщо ви затримуєтесь - попередьте про це за годину до початку
+        консультації. Ваша консультація має фіксований час, і якщо ви
+        запізнились на 15 хвилин, у вас залишилось 45 хвилин, якщо на 20, то
+        залишилось 40, тому що після вас можуть бути інші клієнти.
+      </li>
+      <li class="how__list-item">
+        2. Якщо ви не можете прийти на консультацію, попередьте про це за день
+        до консультації, у цьому разі гроші вам повертаються.
+      </li>
+      <li class="how__list-item">
+        3. Заборонено приходити на консультації у стані наркотичного або
+        алкогольного сп’яніння, зневажлива поведінка.
+      </li>
+      <li class="how__list-item">
+        4. Прийом неповнолітніх осіб здійснюється з дозволу батьків.
+      </li>
+    </ul>
+  </div>
+</section>
